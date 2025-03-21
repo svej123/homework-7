@@ -25,7 +25,7 @@ func (list *LinkedList) Append(value int) {
 func (list *LinkedList) Print() {
 	current := list.Head
 	for current != nil {
-		fmt.Println("%d ->", current.Value)
+		fmt.Println("%d -> ", current.Value)
 		current = current.Next
 	}
 	fmt.Println("nil")
